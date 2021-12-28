@@ -12,7 +12,7 @@ dependencies = [
 [[package]]
 name = "advent-of-code-helpers"
 version = "0.1.0"
-source = "git+https://github.com/Finomnis/advent-of-code-helpers.git?rev=44e2fe61b42bdafb6332a8c84ae0d4ec96afc572#44e2fe61b42bdafb6332a8c84ae0d4ec96afc572"
+source = "git+https://github.com/Finomnis/advent-of-code-helpers.git?rev=9090081da674e9664654f72d0f29c7f6e7e27097#9090081da674e9664654f72d0f29c7f6e7e27097"
 dependencies = [
  "anyhow",
  "clap",

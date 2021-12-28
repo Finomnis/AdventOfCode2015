@@ -13,12 +13,12 @@ fn task2(_input_data: &str) -> Result<u32> {
 }
 
 aoc_tests! {
-    // task1: {
-    //     simple => 0,
-    //     complex => 0,
-    // },
-    // task2: {
-    //     simple => 0,
-    //     complex => 0,
-    // }
+    task1: {
+        simple => 0,
+        complex => 0,
+    },
+    task2: {
+        simple => 0,
+        complex => 0,
+    }
 }

@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 # advent-of-code-helpers = { path = "../advent-of-code-helpers" }
-advent-of-code-helpers = { git = "https://github.com/Finomnis/advent-of-code-helpers.git", rev = "44e2fe61b42bdafb6332a8c84ae0d4ec96afc572" }
+advent-of-code-helpers = { git = "https://github.com/Finomnis/advent-of-code-helpers.git", rev = "9090081da674e9664654f72d0f29c7f6e7e27097" }
