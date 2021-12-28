@@ -31,8 +31,14 @@ fn task1(input_data: Vec<Vec<u32>>) -> Result<u32> {
         .sum())
 }
 
-fn task2(_input_data: Vec<Vec<u32>>) -> Result<u32> {
-    Ok(0)
+fn task2(input_data: Vec<Vec<u32>>) -> Result<u32> {
+    Ok(input_data
+        .into_iter()
+        .map(|mut present| {
+            present.sort();
+            present[0..2].iter().sum::<u32>() * 2 + present.into_iter().product::<u32>()
+        })
+        .sum())
 }
 
 aoc_tests! {
@@ -41,7 +47,7 @@ aoc_tests! {
         complex => 1598415,
     },
     task2: {
-        simple => 0,
-        complex => 0,
+        simple => 34+14,
+        complex => 3812909,
     }
 }
