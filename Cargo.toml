@@ -1,0 +1,10 @@
+[package]
+name = "advent-of-code-2015"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# advent-of-code-helpers = { path = "../advent-of-code-helpers" }
+advent-of-code-helpers = { git = "https://github.com/Finomnis/advent-of-code-helpers.git", rev = "0ff884d5d5e005e4de0bad903a2a2199263239f7" }
