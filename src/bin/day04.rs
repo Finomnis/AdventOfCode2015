@@ -1,7 +1,5 @@
 use advent_of_code_helpers::*;
 
-use md5;
-
 fn parse_input(input: &str) -> Result<&str> {
     Ok(input.trim())
 }

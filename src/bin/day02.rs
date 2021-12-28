@@ -8,7 +8,7 @@ fn parse_input(input: &str) -> Result<Vec<Vec<u32>>> {
         .lines()
         .map(|line| {
             line.trim()
-                .split("x")
+                .split('x')
                 .map(str::parse::<u32>)
                 .collect::<Result<Vec<_>, ParseIntError>>()
         })
@@ -35,7 +35,7 @@ fn task2(input_data: Vec<Vec<u32>>) -> Result<u32> {
     Ok(input_data
         .into_iter()
         .map(|mut present| {
-            present.sort();
+            present.sort_unstable();
             present[0..2].iter().sum::<u32>() * 2 + present.into_iter().product::<u32>()
         })
         .sum())
